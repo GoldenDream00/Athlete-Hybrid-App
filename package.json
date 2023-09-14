@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.6.21",
+    "@react-native-async-storage/async-storage": "github:react-native-community/async-storage",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.8.1",
+    "@react-native-community/slider": "^3.0.3",
+    "expo": "~40.0.0",
+    "expo-app-loading": "^1.0.1",
+    "expo-font": "~8.4.0",
+    "expo-status-bar": "~1.0.3",
+    "firebase": "^8.6.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-dropdown-picker": "^4.0.9",
+    "react-native-elements": "^3.3.2",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
